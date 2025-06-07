@@ -13,10 +13,10 @@ interface TokenSearchProps {
 
 // Mock data for other tokens
 const otherTokens = [
-  { symbol: 'ETH/USDT', price: 2456.78, change: 5.2, volume: '1.2B' },
-  { symbol: 'UNI/USDT', price: 12.34, change: 8.7, volume: '156M' },
-  { symbol: 'LINK/USDT', price: 18.92, change: 3.4, volume: '98M' },
-  { symbol: 'AAVE/USDT', price: 156.78, change: -1.2, volume: '67M' },
+  { symbol: 'ETH/USDT', price: 2456.78, change: 5.2, volume: '1.2B', isLive: false },
+  { symbol: 'UNI/USDT', price: 12.34, change: 8.7, volume: '156M', isLive: false },
+  { symbol: 'LINK/USDT', price: 18.92, change: 3.4, volume: '98M', isLive: false },
+  { symbol: 'AAVE/USDT', price: 156.78, change: -1.2, volume: '67M', isLive: false },
 ];
 
 export const TokenSearch = ({ selectedToken, setSelectedToken }: TokenSearchProps) => {
